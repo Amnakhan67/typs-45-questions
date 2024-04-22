@@ -6,6 +6,6 @@
 
 console.log(`name in lower case: ${personName .toLowerCase()}`);
 
-    console.log(`name in title case: ${personName.charAt(2).toUpperCase + personName.slice(1).toLowerCase()}`)
+    console.log(`name in title case: ${personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase()}`)
 
 //myName.charAt(0).toUpperCase() + myName.slice(1).toLowerCase()); 
